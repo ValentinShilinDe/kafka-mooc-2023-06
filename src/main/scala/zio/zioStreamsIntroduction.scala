@@ -8,7 +8,7 @@ import zio.kafka.serde._
 import zio.stream.ZStream
 import org.slf4j.LoggerFactory
 
-object MainApp extends ZIOAppDefault {
+object zioStreamsIntroduction extends ZIOAppDefault {
   LoggerFactory
     .getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME)
     .asInstanceOf[Logger]
